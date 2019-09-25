@@ -12,6 +12,8 @@ pois não vai estar configurado o caminho do tomcat
 > Olhando nas Dlls do painel, web e totem, essas Dlls ficam dentro da pasta /bin. 
   Agora do lado esquerdo do Totem e Web mostram a versão do **ZoOmBOX**
 
+#### Fazer redirecionamento do botão HotSite para AutoserviçoWeb
+> Alterar o arquivo  _layout.cshtml na class="item-bg" (sign-in)
 
 ## Comando no linux para apagar vários arquivos de log 
 ```bash
