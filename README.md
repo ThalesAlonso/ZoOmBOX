@@ -20,3 +20,6 @@ pois não vai estar configurado o caminho do tomcat
 ```bash
 find . -name "*.gz" -print0 | xargs -0 rm
 
+### Fechar printer 
+taskkill  /F /IM  javaw.exe
+taskkill  /F /IM  java.exe
