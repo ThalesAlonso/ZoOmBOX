@@ -13,6 +13,7 @@ pois não vai estar configurado o caminho do tomcat
   Agora do lado esquerdo do Totem e Web mostram a versão do **ZoOmBOX**
 
 #### Fazer redirecionamento do botão HotSite para AutoserviçoWeb
+ Pasta /views/shared
 > Alterar o arquivo  _layout.cshtml na class="item-bg" (sign-in
 ## Checar se Tomcat está no ar
 
