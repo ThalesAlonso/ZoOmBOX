@@ -24,3 +24,7 @@ find . -name "*.gz" -print0 | xargs -0 rm
 ### Fechar Printer
 taskkill  /F /IM  javaw.exe
 taskkill  /F /IM  java.exe
+
+
+```sql
+select * from logapp where valorpk = '12865' order by data desc  
