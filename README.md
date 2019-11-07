@@ -17,6 +17,12 @@ pois não vai estar configurado o caminho do tomcat
 > Alterar o arquivo  _layout.cshtml na class="item-bg" (sign-in
 ## Checar se Tomcat está no ar
 
+
+
+```sql 
+select * from logapp where valorpk = '12865' order by data desc  
+
+
 ## Comando no linux para apagar vários arquivos de log 
 ```bash
 find . -name "*.gz" -print0 | xargs -0 rm
@@ -26,5 +32,4 @@ taskkill  /F /IM  javaw.exe
 taskkill  /F /IM  java.exe
 
 
-```sql
-select * from logapp where valorpk = '12865' order by data desc  
+
