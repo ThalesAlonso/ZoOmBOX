@@ -17,7 +17,8 @@ pois não vai estar configurado o caminho do tomcat
 > Alterar o arquivo  _layout.cshtml na class="item-bg" (sign-in
 ## Checar se Tomcat está no ar
 
-
+### Fazer redirecionamento HTTPS em site publicado no IIS 
+https://gsgroup.freshdesk.com/support/solutions/articles/25000021716
 
 ```sql 
 select * from logapp where valorpk = '12865' order by data desc  
