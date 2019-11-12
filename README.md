@@ -18,7 +18,12 @@ pois não vai estar configurado o caminho do tomcat
 ## Checar se Tomcat está no ar
 
 ### Fazer redirecionamento HTTPS em site publicado no IIS 
-https://gsgroup.freshdesk.com/support/solutions/articles/25000021716
+> https://gsgroup.freshdesk.com/support/solutions/articles/25000021716
+
+
+### Mudar cor da body do Hotsite 
+Alterado a linha 1115 de #fff para #000 no bootstrap.min.css que fica dentro 
+C:\GSGroup\HotSite\Content\css
 
 ```sql 
 select * from logapp where valorpk = '12865' order by data desc  
