@@ -37,5 +37,8 @@ find . -name "*.gz" -print0 | xargs -0 rm
 taskkill  /F /IM  javaw.exe
 taskkill  /F /IM  java.exe
 
+#### Incluir Tags do Google Analytics 
 
-
+C:\GSGroup\HotSite-PromocaoRoldao\Views\Shared
+Alterar arquivo 
+```html _Layout.cshtml
