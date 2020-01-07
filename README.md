@@ -21,6 +21,11 @@ pois não vai estar configurado o caminho do tomcat
 > https://gsgroup.freshdesk.com/support/solutions/articles/25000021716
 
 
+### select para retornar clientes que tem menos de 11 dígitos no cpf
+
+```sql 
+select cpfcliente, nome, char_length(cpfcliente) from cliente where char_length(cpfcliente) < 11
+
 ### Mudar cor da body do Hotsite 
 Alterado a linha 1115 de #fff para #000 no bootstrap.min.css que fica dentro 
 C:\GSGroup\HotSite\Content\css
@@ -42,3 +47,5 @@ taskkill  /F /IM  java.exe
 C:\GSGroup\HotSite-PromocaoRoldao\Views\Shared
 Alterar arquivo 
 ```html _Layout.cshtml
+
+
