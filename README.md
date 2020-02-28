@@ -49,3 +49,5 @@ Alterar arquivo
 ```html _Layout.cshtml
 
 
+### Quando der o erro command line error para instalar o tomcat, olhar o nome no servico.bat e retirar o w
+
